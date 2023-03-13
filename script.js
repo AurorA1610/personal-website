@@ -1,4 +1,4 @@
-var navSmall = document.querySelector(".nav-sm");
+var navSmall = document.querySelector(".hamburger");
 var navList = document.querySelector(".nav-list");
 var links = document.querySelector(".nav-list li");
 

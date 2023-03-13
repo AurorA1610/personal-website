@@ -46,7 +46,7 @@ header {
   cursor: pointer;
 }
 
-nav .nav-sm {
+nav .hamburger {
   width: 35px;
   height: 24px;
   right: 3%;
@@ -57,7 +57,7 @@ nav .nav-sm {
   cursor: pointer;
   display: none;
 }
-nav .nav-sm span {
+nav .hamburger span {
   display: block;
   background: #2ecc71;
   width: 100%;
@@ -65,7 +65,7 @@ nav .nav-sm span {
   transition: 0.3s;
   transition-property: transform, opacity;
 }
-nav .nav-sm span:nth-child(2) {
+nav .hamburger span:nth-child(2) {
   margin: 7px 0px;
 }
 
@@ -177,7 +177,7 @@ nav .nav-list li.btn:hover a {
 }
 
 @media screen and (max-width: 930px) {
-  nav .nav-sm {
+  nav .hamburger {
     display: initial;
   }
   .click {
